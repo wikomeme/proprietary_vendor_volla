@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS290/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/gigaset/GS290/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
     vendor/gigaset/GS290/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc \
+    vendor/gigaset/GS290/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/gigaset/GS290/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/gigaset/GS290/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
     vendor/gigaset/GS290/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
@@ -573,6 +574,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS290/proprietary/vendor/lib/hw/thermal.mt6763.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6763.so \
     vendor/gigaset/GS290/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
+    vendor/gigaset/GS290/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
@@ -849,6 +851,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS290/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
+    vendor/gigaset/GS290/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so \
     vendor/gigaset/GS290/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
